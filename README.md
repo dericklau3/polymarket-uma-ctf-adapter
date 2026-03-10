@@ -1,0 +1,1 @@
+# Polymarket Uma CTF Adapter
