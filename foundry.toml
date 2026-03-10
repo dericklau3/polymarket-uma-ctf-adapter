@@ -22,6 +22,7 @@ ignore = ["test/**/*.sol", "script/**/*.sol"]
 
 [rpc_endpoints]
 base = "${BASE_NETWORK}"
+basetest = "${BASETEST_NETWORK}"
 
 [etherscan]
 97 = { key = "${ETHERSCAN_APIKEY}" }
