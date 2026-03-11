@@ -64,9 +64,9 @@ abstract contract BaseDeployScript is Script {
             cfg.finder = 0x4408e1c6745B43350711317C89Db35B479992e5C;
             cfg.oo = 0x4408e1c6745B43350711317C89Db35B479992e5C;
         } else if (block.chainid == 84532) {
-            cfg.ctf = 0x7E6d9618Ba8a87421609352d6e711958A97e2512;
-            cfg.finder = 0xfF4Ec014E3CBE8f64a95bb022F1623C6e456F7dB;
-            cfg.oo = 0x99EC530a761E68a377593888D9504002Bd191717;
+            cfg.ctf = 0x5608E0FCE82574071dd083B2a644A24bbE8847e7;
+            cfg.finder = 0x3320eD5f870Cd895D27cf7A941D395A81C090F44;
+            cfg.oo = 0xAB7355A0fD1127a5d2f11651f9bB3e4837B3680d;
         } else {
             revert("Unsupported chain");
         }
